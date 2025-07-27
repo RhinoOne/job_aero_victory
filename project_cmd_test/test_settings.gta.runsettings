@@ -1,0 +1,43 @@
+<RunSettings>
+  <RunConfiguration>
+    <MaxCpuCount>3</MaxCpuCount>
+    <EnvironmentVariables>
+      <VSTEST_BACKGROUND_DISCOVERY>1</VSTEST_BACKGROUND_DISCOVERY>
+    </EnvironmentVariables>
+    <DefaultPlatform>X64</DefaultPlatform>
+    <CollectSourceInformation>True</CollectSourceInformation>
+  </RunConfiguration>
+  <GoogleTestAdapterSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SolutionSettings>
+      <Settings>
+        <PrintTestOutput>true</PrintTestOutput>
+        <TestDiscoveryRegex>.*_*_*.exe</TestDiscoveryRegex>
+        <TestDiscoveryTimeoutInSeconds>30</TestDiscoveryTimeoutInSeconds>
+        <WorkingDir />
+        <PathExtension />
+        <CatchExceptions>true</CatchExceptions>
+        <BreakOnFailure>true</BreakOnFailure>
+        <RunDisabledTests>false</RunDisabledTests>
+        <NrOfTestRepetitions>1</NrOfTestRepetitions>
+        <ShuffleTests>true</ShuffleTests>
+        <ShuffleTestsSeed>0</ShuffleTestsSeed>
+        <TraitsRegexesBefore />
+        <TraitsRegexesAfter />
+        <TestNameSeparator />
+        <DebugMode>true</DebugMode>
+        <TimestampOutput>true</TimestampOutput>
+        <ShowReleaseNotes>false</ShowReleaseNotes>
+        <ParseSymbolInformation>true</ParseSymbolInformation>
+        <AdditionalTestDiscoveryParam />
+        <AdditionalTestExecutionParam />
+        <ParallelTestExecution>true</ParallelTestExecution>
+        <MaxNrOfThreads>3</MaxNrOfThreads>
+        <BatchForTestSetup />
+        <BatchForTestTeardown />
+        <KillProcessesOnCancel>true</KillProcessesOnCancel>
+        <UseNewTestExecutionFramework>true</UseNewTestExecutionFramework>
+      </Settings>
+    </SolutionSettings>
+    <ProjectSettings />
+  </GoogleTestAdapterSettings>
+</RunSettings>
